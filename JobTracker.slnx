@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Application/">
+    <Project Path="Application/JobTracker.Application.csproj" />
+  </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="Domain/JobTracker.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure/JobTracker.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="Presentation/JobTracker.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/JobTracker.Tests.csproj" />
+  </Folder>
+</Solution>
