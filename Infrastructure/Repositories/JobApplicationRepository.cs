@@ -36,7 +36,7 @@ public class JobApplicationRepository : IJobApplicationRepository
         return application;
     }
 
-    public async Task<bool> DeletAsync(int id, string userId)
+    public async Task<bool> DeleteAsync(int id, string userId)
     {
         var app = await GetByIdAsync(id, userId);
         if(app == null) return false;
